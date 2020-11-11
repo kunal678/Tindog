@@ -1,0 +1,155 @@
+/* *{
+    border: 3px solid black;
+} */
+body{
+    font-family: 'Goldman', cursive;
+}
+#navbar{
+    padding-top: 15px;
+    padding-left: 14% ;
+    padding-right: 14%;
+    font-family: "ubuntu";
+    font-size: 2rem;
+    font-weight: 900;
+}
+.nav-item{
+    padding: 0 18px;
+    
+}
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative;
+    left: 15%;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "ubuntu";
+}
+
+#title{
+    background-color: #ff4c68;
+    color: lightyellow;
+    position: relative;
+    /* height: 540px; */
+}
+
+.container.fluid{
+    /* padding-top: 5%  ; */
+    padding-bottom: 0px;
+    padding-left: 15% ;
+    padding-right: 15%;
+    
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+   line-height: 1.5;
+    
+}
+.row{
+    padding-top: 100px;
+    padding-left: 15% ;
+    padding-right: 15%;
+   
+}
+#features{
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: white;
+    position: relative;
+
+    z-index: 1;
+}
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+p{
+    color: lightgray;
+}
+.icon{
+    color: #ef8172;
+    cursor:pointer ;
+}
+.icon:hover{
+    color:#ff4c68;
+}
+
+     /* Testimonials */
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    /* text-align: center; */
+}
+
+#testimonials{
+   
+    text-align: center;
+    background-color: #ef8172 ;
+    color: white;
+
+}
+.carousel-item{
+    padding: 7% 5%;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius:100% ;
+    margin: 30px;
+}
+#press{
+    text-align: center;
+    background-color: #ef8172 ;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 15px;
+}
+
+
+/* pricing */
+
+
+#pricing{
+    padding-top: 50px;
+    text-align: center;
+}
+.pricing-table{
+    padding: 1% 8%;
+}
+@media (max-width:1028px){
+#title{
+    text-align: center;
+}
+  .title-image{
+      position:static;
+      transform: rotate(0);
+  }
+}
+
+
+/* Call to Action */
+#cta{
+    background-color:  #ff4c68;
+    padding: 50px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 1.5;
+    color: white;
+}
+#footer{
+    padding: 50px;
+    text-align: center;
+}
+.icons{
+    margin: 20px 10px;
+}
